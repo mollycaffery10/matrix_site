@@ -5,6 +5,9 @@ var lives = maxLives;
 var maxTime = 10;
 var time = maxTime;
 var currentTimeout;
+function onEvent(arg1, arg2, arg3) {
+    jQuery(arg1).on(arg2, arg3());
+}
 onEvent("IntroStartButton", "click", initializeLevelOne);
 onEvent("IntroLabel2", "click", initializeLevelOne);
 function initializeLevelOne() {
