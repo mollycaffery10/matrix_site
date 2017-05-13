@@ -9,3 +9,29 @@ h1 {
 body {
     background-color: #aaaaaa;
 }
+
+#divApplab {
+    position: relative;
+    margin: 50px;
+}
+
+.health-bar {
+    width: 100%;
+    background-color: #80736f;
+}
+
+.health-bar-inner {
+    height: 30px;
+    background-color: greenyellow;
+}
+
+.health-holder {
+    padding: 10px;
+    margin-top: 50px;
+    width: 30%;
+    float: left;
+}
+
+.right {
+    float: right;
+}
